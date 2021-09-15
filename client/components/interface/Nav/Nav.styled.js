@@ -15,6 +15,9 @@ export const StyledNav = styled.nav`
     justify-content: flex-start;
     align-self: center;
   }
+  h1 {
+    padding-left: 80px;
+  }
   a {
     justify-content: flex-end;
     text-decoration: none;

@@ -2,16 +2,16 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { StyledHome } from "./Home.styled";
-import Profile from "../Profile";
+import Image from "../../utils/ImageComponent/Image";
 
 const Home = () => {
   return (
     <StyledHome>
       <header>
-        <h1>Welcome to Phish Store!</h1>
+        <h1></h1>
       </header>
       <section>
-        <Profile />
+        <img src="/abheadshot.jpg" />
       </section>
     </StyledHome>
   );

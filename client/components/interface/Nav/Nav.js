@@ -9,12 +9,13 @@ import history from "../../../utils/history";
 const Nav = ({ logout, login, isLoggedIn }) => {
   return (
     <StyledNav>
-      <Image
+      {/* <Image
         url={"/dummy_logo.png"}
         size={{ height: "80px", width: "120px" }}
         logo={true}
-      />
-      <div>
+      /> */}
+      <h1>Andrew Bloodworth</h1>
+      {/* <div>
         {isLoggedIn ? (
           <a href="#" onClick={logout}>
             Logout
@@ -27,7 +28,7 @@ const Nav = ({ logout, login, isLoggedIn }) => {
         <a href="#" onClick={() => history.push("/signup")}>
           Signup
         </a>
-      </div>
+      </div> */}
     </StyledNav>
   );
 };

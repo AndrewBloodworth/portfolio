@@ -24,11 +24,7 @@ export const StyledMenu = styled.aside`
     section {
     }
   }
-  div:hover {
-    border: solid;
-    font-weight: bold;
-    hover-weight: bold;
-  }
+
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
   }

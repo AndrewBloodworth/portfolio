@@ -8,7 +8,7 @@ import { resetAuth } from "../../../redux/reducers/auth";
 const Footer = ({ isLoggedIn, logout }) => {
   return (
     <StyledFooter>
-      <div>
+      {/* <div>
         <ul>
           <li>
             <Link to={"/"}>Home</Link>
@@ -25,8 +25,8 @@ const Footer = ({ isLoggedIn, logout }) => {
             </li>
           )}
         </ul>
-      </div>
-      <div>Phish Store</div>
+      </div> */}
+      <div>Andrew Bloodworth</div>
     </StyledFooter>
   );
 };
