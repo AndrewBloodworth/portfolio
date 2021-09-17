@@ -22,7 +22,7 @@ const Menu = ({ open, isLoggedin, isAdmin }) => {
       </div>
       <div>
         <header>
-          <Link to="/addItem">
+          <Link to="/projects">
             <h3>My Projects</h3>
           </Link>
         </header>

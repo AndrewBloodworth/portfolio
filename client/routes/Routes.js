@@ -31,6 +31,11 @@ const Routes = ({ getMe, isLoggedIn, open, preCheck, auth }) => {
           />
           <Route
             exact
+            path="/projects"
+            render={(props) => renderer(Home, props)}
+          />
+          <Route
+            exact
             path="/:any"
             render={(props) => renderer(FourOhFour, props)}
           />
